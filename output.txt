@@ -1,2 +1,2 @@
-BFS traversal of graph is:
-2 0 3 1 
+DFS Traversal
+2 0 1 3 
