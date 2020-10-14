@@ -31,6 +31,15 @@ class Bipartite {
 
 		Arrays.fill(color, -1);
 
+		for (int v = 0; v < V; v++)
+			if (color[v] == -1)
+				if (!isBipartiteUtil(graph, v, color))
+					return false;
+		return true;
+	}
+
+	static boolean isBipartiteUtil(int[][] graph, int src, int[] color) {
+
 		color[src] = 1;
 
 		Queue<Integer> que = new LinkedList<>();
@@ -54,6 +63,7 @@ class Bipartite {
 			}
 		}
 		return true;
+
 	}
 
 }
