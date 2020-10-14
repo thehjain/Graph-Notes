@@ -67,7 +67,6 @@ class dijkstra {
 		}
 
 		printGraph(dist);
-
 	}
 
 }
