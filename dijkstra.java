@@ -1,7 +1,7 @@
 import java.util.*;
 
 //Dijkstra Algorithm to find the shortest path
-class dijkstra {
+class Dijkstra {
 
 	private static int V = 9;
 	private static int MAX = Integer.MAX_VALUE;
